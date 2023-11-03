@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/lost/lost",
+    "pages/found/found",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "失物招领",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#989898",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/lost/lost",
+        "text": "首页",
+        "iconPath": "static/tabber/lost.png",
+        "selectedIconPath": "static/tabber/lost.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发布",
+        "iconPath": "static/tabber/found.png",
+        "selectedIconPath": "static/tabber/found.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "个人",
+        "iconPath": "static/tabber/login.png",
+        "selectedIconPath": "static/tabber/login.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

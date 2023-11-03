@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/lost/lost",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/found/found",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "失物招领",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#989898",
+		"selectedColor": "#000000",
+		"list": [{
+				"pagePath": "pages/lost/lost",
+				"text": "首页",
+				"iconPath": "static/tabber/lost.png",
+				"selectedIconPath": "static/tabber/lost.png"
+			},
+			{
+				"pagePath": "pages/found/found",
+				"text": "发布",
+				"iconPath": "static/tabber/found.png",
+				"selectedIconPath": "static/tabber/found.png"
+			},
+			{
+				"pagePath": "pages/login/login",
+				"text": "个人",
+				"iconPath": "static/tabber/login.png",
+				"selectedIconPath": "static/tabber/login.png"
+			}
+		]
+	}
+}
